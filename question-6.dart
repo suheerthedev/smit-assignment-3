@@ -2,7 +2,7 @@
 // Input: [3, 9, 1, 6, 4, 2, 8, 5, 7]
 // Output: Largest element: 9
 void main() {
-  List list = [3, 9, 1, 6, 4, 20, 8, 5, 7];
+  List list = [3, 9, 1, 6, 4, 2, 8, 5, 7];
 
   int largestNumber = list[0];
 

@@ -11,7 +11,7 @@ void main() {
 // 0+1=1
 // 1+1=2  2+1=3
 // 3+1=4  4+1=5
-
+int
   int rows = 4;
   int number = 1;
   int sum = 1;
@@ -19,6 +19,9 @@ void main() {
   for (int i = 1; i <= rows; i++) {
     for (int j = 0; j < i; j++) {
       sum = number + j;
+      //     1 +0
+      //     1 + 0 / 1+1
+      //     1+0 / 1+1 / 1+2
       stdout.write("$sum ");
     }
     print('');

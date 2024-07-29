@@ -1,2 +1,2 @@
-ber:');
-  // num number = num.pa
+
+  int number = int.parse(stdin.readLineSync()!);

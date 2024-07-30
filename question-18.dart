@@ -35,3 +35,39 @@ void main() {
     }
   }
 }
+
+
+// void main() {
+//   List<Map<dynamic, dynamic>> studentInfo = [
+//     {'email': 'suheer@gmail.com', 'password': 'suheer123'},
+//     {'email': 'abdullah@gmail.com', 'password': 'abd123'},
+//     {'email': 'ahad@gmail.com', 'password': 'ahad123'}
+//   ];
+
+//   bool isLogin = false;
+//   bool condition = true;
+
+//   print("Enter Email:");
+//   String email = stdin.readLineSync()!;
+
+//   while (isLogin == false) {
+//     for (int i = 0; i < studentInfo.length; i++) {
+//       bool checking = studentInfo[i].containsValue(email);
+
+//       if (checking == true) {
+//         print("Login Success");
+//         isLogin = true;
+//         condition = false;
+//         break;
+//       }
+//     }
+//   }
+// }
+
+// print(studentInfo[i].containsValue(email));
+// isLogin = true;
+// else {
+//         print('Login Fail');
+//         print("Enter Email:");
+//         email = stdin.readLineSync()!;
+//       }
